@@ -1,0 +1,62 @@
+.select1 .center{
+    width:1170px;
+    height:1000px;
+    
+}
+.select1{
+    width:100%;
+    height:260px;
+    background-color:#F3F3F3;
+}
+.select2{
+    display:flex;
+    width:100%;
+    height:650px;
+    align-items: center;
+}
+.select2 img{
+    height:450px;
+}
+
+
+.center .gift{
+    width:100%;
+    height:260px;
+    
+}
+.center .gift{
+    display: flex;
+    gap:30px;
+    align-items: center;
+
+}
+.center .gift .igol{
+    display: flex;
+    gap:14px;
+    
+    align-items: center;
+    width:270px;
+    height: 60px;
+    border:1.5px solid #CCCCCC;
+}
+.center .gift .igol:hover .sircle{
+    background: rgba(255, 255, 255, 1);
+
+    background-color:#023047;
+}
+.center .gift .igol:hover{
+    border:1px solid #023047;
+}
+
+
+.center .gift .igol .sircle{
+    border-radius:50%;
+    display: flex;
+    align-items: center;
+    width:45px;
+    background-color: #E5E5E5;
+    height:45px;
+}
+
+
+

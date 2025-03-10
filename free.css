@@ -1,0 +1,152 @@
+.free{
+    width:100%;
+    height:1466px;
+    margin-top:650px;
+    background-color:#F3F3F3;
+}
+.free .center{
+    width:1170px;
+    height:1466px;
+}
+.free .center .tex{
+    padding-top:91px;
+    text-align: center;
+}
+.free .center .card{
+    width:532px;
+    height: 45px;
+    display: flex;
+    gap:1px;
+    margin-top:45px;
+}
+.free .center .card button{
+    width:100px;
+    outline:none;
+    cursor: pointer;
+    border:none;
+    height:45px;
+    background-color:#F3F3F3;
+}
+.free .center .card button:focus{
+    background-color:#023047;
+    color:white;
+}
+
+.free .center .cards{
+    width:100%;
+    height:952px;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr;
+    margin-top:30px;
+    grid-gap:30px;
+}
+.free .center .cards .boxs{
+    width:370px;
+    height: 461px;
+    background-color:#FFFFFF;
+}
+.free .center .cards .boxs .ico{
+    width:30px;
+    position: absolute;
+    margin-top:-300px;
+    margin-left:320px;
+    height:130px;
+    background-color: #1ecd1e;
+}
+.free .center .cards .boxs .ico .ic{
+    margin-top:10px;
+    padding:7px 8px;
+    background-color: #510f0f;
+}
+.free .center .cards .boxs .ico .ic i{
+  font-size:20px; 
+  padding-right:8px; 
+}
+
+
+
+.free .center .cards .boxs .blogbutton button:hover{
+   background-color: #023047;
+   color:white;
+}
+
+.free .center .cards .boxs:hover {
+    box-shadow:0px 6px 40px 0px  #00000026;
+}
+
+.free .center .cards .boxs img{
+    width:370px;
+    height: 350px;
+
+}
+.free .center .cards .boxs .boxstext{
+    display:flex;
+    gap:38px;
+    align-items: center;
+}
+.free .center .cards .boxs .boxstext .star{
+    display: flex;
+    gap:5px;
+    font-size:18px;
+}
+.free .center .cards .boxs .boxstext .star i:focus{
+    color: #1ecd1e;
+}
+
+.free .center .cards .boxs .blogbutton{
+    display: flex;
+    margin-top:12px;
+    align-items: center;
+    gap:128px;
+} 
+.free .center .cards .boxs .blogbutton button{
+    padding:10px 30px;
+    background-color:#FFFFFF;
+    border:1px solid #333333;
+}
+
+
+
+.free .center .btns{
+    width:130px;
+    color:white;
+    height:50px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    margin-top:60px;
+    background-color:#023047;
+}
+.free .pol{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:300px;
+    background-color:#000000BF;
+}
+.free .pol .elon{
+    display: flex;
+    align-items:center;
+    width:970px;
+    height: 100px;
+    background-color:#E5F6FF;
+}
+.free .pol .elon .byton{
+    padding:15px 30px;
+    cursor: pointer;
+    border:1px dashed #023047;
+   
+
+}
+.free .blog{
+    width:100%;
+    height:782px;
+    background-color:#510f0f;
+}
+.free .blog .textblog{
+    text-align: center;
+    padding-top:84px;
+}
